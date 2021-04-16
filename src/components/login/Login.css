@@ -1,0 +1,66 @@
+.container-principal{
+    margin-top: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.area-logo{
+    
+}
+
+.container-conteudo{
+    flex: 1;
+    background: #F5F6FB;
+    height: 40rem;
+    max-width: 400px;
+    min-width: 400px;
+    border-radius: 20px;
+    color: var(--title);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.teste{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+label{
+    border: 1px solid red;
+    padding: 10px;
+}
+
+label > img{
+    /* display: flex; */
+    width: 30px;
+}
+
+form > button{
+    background: var(--botao);
+    color: var(--white);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+form{
+    padding: 60px;
+    
+}
+
+label{
+    font-size: 1.25rem;
+}
+
+input{
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+}
